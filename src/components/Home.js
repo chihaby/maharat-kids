@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Header, Image } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-import img2 from '../assets/img2.jpg';
+import img2 from '../assets/img2.png';
 
 const Home = () => (
   <div>

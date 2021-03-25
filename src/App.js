@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -11,17 +11,21 @@ import Produits from './components/Produits';
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      <div style={{ marginBottom: '100px' }}>
+        <Navbar />
+      </div>
+
       <main>
         <Container>
-          <Route>
+          <Switch>
             <Route path='/' component={Home} exact />
             <Route path='/produits' component={Produits} exact />
-            <Route path='/consultation' component={Consultation} exact />
-            <Route path='/contact' component={Contact} exact />
-          </Route>
+            <Route path='/consultation' component={Consultation} />
+            <Route path='/contact' component={Contact} />
+          </Switch>
         </Container>
       </main>
+
       <Footer />
     </Router>
   );

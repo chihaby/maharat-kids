@@ -1,12 +1,12 @@
 import React from 'react';
-import { Dropdown, Menu, Container, Image, MenuItem } from 'semantic-ui-react';
+import { Dropdown, Menu, Container, Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <div>
     <Menu fixed='top' inverted>
       <Container>
-        <Menu.Item as='a' header>
+        <Menu.Item header>
           <Link to='/'>
             <Image
               size='mini'

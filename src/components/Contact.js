@@ -5,7 +5,7 @@ import phone from '../assets/phone.png';
 const Contact = () => {
   return (
     <div>
-      <h1>this is contact page</h1>
+      <h1>Contactez Nous</h1>
 
       <div>
         <Image

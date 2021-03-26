@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Container,
-  Grid,
-  Header,
-  List,
-  Segment,
-  Icon,
-} from 'semantic-ui-react';
+import { Container, Grid, Header, List, Segment } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import { Link } from 'react-router-dom';
 
@@ -45,7 +38,7 @@ const Footer = () => (
           </Grid.Column>
           <Grid.Column width={8}>
             <Header inverted as='h4' content='Maharat Kids' />
-            <p>Child Development Center</p>
+            <p>Centre de Developpement d'Enfants </p>
             <p>Tel: 05 28 23 81 08</p>
             <p>Email: maharatkids@gmail.com</p>
           </Grid.Column>

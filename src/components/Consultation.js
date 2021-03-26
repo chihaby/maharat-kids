@@ -17,19 +17,19 @@ const Consultation = () => {
           </Grid.Column>
           <Grid.Column width={8}>
             <List as='ul'>
-              <List.Item as='li'>Gaining Access</List.Item>
-              <List.Item as='li'>Inviting Friends</List.Item>
               <List.Item as='li'>
-                Benefits
-                <List.List as='ul'>
-                  <List.Item as='li'>
-                    <a href='/'>Link to somewhere</a>
-                  </List.Item>
-                  <List.Item as='li'>Rebates</List.Item>
-                  <List.Item as='li'>Discounts</List.Item>
-                </List.List>
+                Vous êtes parent engagé et vous désirez assurer le suivi de
+                votre enfant en difficulté d’apprentissage tout en étant encadré
+                par un professionnel du domaine.
               </List.Item>
-              <List.Item as='li'>Warranty</List.Item>
+              <List.Item as='li'>
+                Vous avez la motivation, l’engagement mais vous manquez de
+                pédagogie et de ressources
+              </List.Item>
+              <List.Item as='li'>
+                Je vous propose donc mon service qui consiste à vous offrir une
+                stratégie de travail sur mesure après évaluation de votre enfant
+              </List.Item>
             </List>
           </Grid.Column>
         </Grid.Row>

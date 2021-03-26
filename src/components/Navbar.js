@@ -1,6 +1,7 @@
 import React from 'react';
 import { Dropdown, Menu, Container, Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Navbar = () => (
   <div>
@@ -8,11 +9,7 @@ const Navbar = () => (
       <Container>
         <Menu.Item header>
           <Link to='/'>
-            <Image
-              size='mini'
-              src='/logo.png'
-              style={{ marginRight: '1.5em' }}
-            />
+            <Image size='mini' src={logo} style={{ marginRight: '1.5em' }} />
           </Link>
           <Link to='/'>Maharat Kids</Link>
         </Menu.Item>

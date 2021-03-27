@@ -72,13 +72,25 @@ const Produits = () => {
               style={{ marginTop: '2em' }}
             />
             <List as='ul' style={{ marginTop: '2em' }}>
-              <List.Item as='li'>Apprends-moi à Lire et à Ècrire</List.Item>
               <List.Item as='li'>
-                L’Art de Raconter l’Histoire en Préscolaire
+                <span style={{ fontWeight: 'bold' }}>
+                  Apprends-moi à Lire et à Ècrire
+                </span>
+              </List.Item>
+              <List.Item as='li'>
+                <span style={{ fontWeight: 'bold' }}>
+                  L’Art de Raconter l’Histoire en Préscolaire
+                </span>
               </List.Item>{' '}
-              <List.Item as='li'>La Culture Générale en Préscolaire</List.Item>{' '}
               <List.Item as='li'>
-                Conception des Applications Digitales Boom Learning
+                <span style={{ fontWeight: 'bold' }}>
+                  La Culture Générale en Préscolaire
+                </span>
+              </List.Item>{' '}
+              <List.Item as='li'>
+                <span style={{ fontWeight: 'bold' }}>
+                  Conception des Applications Digitales Boom Learning
+                </span>
               </List.Item>
             </List>
           </Grid.Column>

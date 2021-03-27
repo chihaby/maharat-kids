@@ -31,16 +31,24 @@ const Footer = () => (
             <Header inverted as='h4' content='Réseaux Sociaux' />
 
             <List link inverted>
-              <List.Item as='a'>Facebook</List.Item>
-              <List.Item as='a'>Pinterest</List.Item>
-              <List.Item as='a'>Instagram</List.Item>
+              <List.Item as='a'>
+                <a
+                  href='https://www.facebook.com/Maharat-Kids-1844191125877326'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Facebook
+                </a>
+              </List.Item>
+              {/* <List.Item as='a'>Pinterest</List.Item>
+              <List.Item as='a'>Instagram</List.Item> */}
             </List>
           </Grid.Column>
           <Grid.Column width={8}>
             <Header inverted as='h4' content='Maharat Kids' />
             <p>Centre de Developpement d'Enfants </p>
-            <p>Tel: 05 28 23 81 08</p>
-            <p>Email: maharatkids@gmail.com</p>
+            <p>Email: maharatkids.info@gmail.com</p>
+            <p>Tel: 05 28 23 81 08 - Ville: Agadir</p>
           </Grid.Column>
         </Grid>
       </Container>

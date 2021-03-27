@@ -16,7 +16,7 @@ const Consultation = () => {
             />
           </Grid.Column>
           <Grid.Column width={8}>
-            <List as='ul'>
+            <List as='ul' style={{ marginTop: '2em' }}>
               <List.Item as='li'>
                 Vous êtes parent engagé et vous désirez assurer le suivi de
                 votre enfant en difficulté d’apprentissage tout en étant encadré
